@@ -1,0 +1,35 @@
+.bg-darkorange{
+    
+    background-color: #FAD961;
+background-image: linear-gradient(0deg, #FAD961 0%, #ff7e33 100%);
+
+}
+
+.font{
+    font-family: "Pacifico";
+    color: white;
+}
+.img{
+    position: relative;
+    cursor: pointer;
+    transition: all 200ms;
+    
+}
+.img:hover{
+    transform: translateY(-10px);
+    
+   
+}
+.bg-violet{
+background: #767ddd;
+}
+.carru{
+    position: relative;
+    z-index: 2;
+}
+
+
+@font-face{
+    font-family: "Pacifico";
+    src: url("font/Pacifico-Regular.ttf");
+}
